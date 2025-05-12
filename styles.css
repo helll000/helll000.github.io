@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Niconne&display=swap');
+h1 { 
+  font-size: 85px; 
+  font-weight: 600; 
+  font-family: 'Niconne', cursive; 
+  color:rgb(187, 152, 218); 
+  text-align: center;
+  text-shadow: 2px 2px 0px  #05a849, 
+               4px 4px 0px #099227,
+               6px 6px 0px #17b480,
+               8px 8px 0px #63d388,
+               10px 10px 0px #8cecd8;
+}
+body {
+  background-color: #cdf0e5; 
+}
+h2 { 
+  font-size: 35px;
+  font-weight: 600;
+  color: #fdfdfe; 
+  text-align: center; 
+  text-shadow: 0px 0px 5px #b393d3, 0px 0px 10px #b393d3, 0px 0px 10px #b393d3, 
+    0px 0px 20px #9e4bf1;
+  }
+
+h3 { 
+  font-weight: 600; 
+  font-family: 'Niconne', cursive; 
+  color: #000000; 
+  text-align: center; 
+}
+p { 
+  color: #085c2b; 
+}
+span { 
+  font-size: 30px;
+  font-weight: bold; 
+  font-family: 'Roboto'; 
+  color: #be3535; 
+  text-align: center; 
+}
+nav { 
+  font-weight: 600; 
+  font-family: 'Niconne', cursive; 
+  color: #000000; 
+  text-align: center;  
+}
+.product-card { 
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    border: 1px solid #8dac9d; 
+    background-color:#ffffff; 
+    padding: 16px; 
+    border-radius: 4px; 
+  }
+   
+  .product-card__image { 
+    width: 100%;
+    object-fit: cover; 
+    margin-bottom: 16px; 
+  }
+   
+  .product-card__title { 
+    font-size: 18px; 
+    font-weight: bold; 
+    margin-bottom: 8px; 
+  }
+   
+  .product-card__description { 
+    font-size: 14px; 
+    margin-bottom: 16px; 
+  }
+   
+  .product-card__price { 
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 16px; 
+  }
+   
+  .product-card__button {
+    background-color: #0077d8; 
+    color: #fff; 
+    padding: 8px 16px; 
+    border-radius: 4px; 
+    cursor: pointer;  
+  }
+  .cards { 
+    display: grid; 
+    grid-template-columns: repeat(auto-fill, 225px);
+    width: 100%; 
+    max-width: 1000px; 
+    justify-content: center; 
+    justify-items: center; 
+    column-gap: 30px; 
+    row-gap: 40px; 
+    margin: 0 auto; 
+  }
+footer { 
+  font-size: 25px; 
+  font-weight: 600; 
+  color:  #05a849; 
+  text-align: center; 
+  text-shadow: 0px 0px 5px  #eaf5ee, 0px 0px 10px #ffffff, 0px 0px 10px #ffffff,
+    0px 0px 20px #ffffff; 
+}
